@@ -1,39 +1,86 @@
-/* General */
+
    body {
       font-family: verdana, arial, sans-serif; 
       font-size: 1em;
-      margin: 0;}
+      margin: 0;
+   }
 
-/* Titulares */
-   h1 {font-size: 1em; color: #003399; font-weight: bold; margin-top: 1em; }
-   h2 {font-size: 0.8em; color: black; font-weight: bold;}
+
+   h1 {
+      font-size: 1em; 
+      color: #003399; 
+      font-weight: bold;
+      margin-top: 1em;
+   }
+
+   h2 {
+      font-size: 0.8em;
+      color: black; 
+      font-weight: bold;
+   }
  
-/* Logotipo */
-   /*IMG.logo {padding-left: 1em;}*/
- 
-/* Lista de opciones del menu principal */
-   ul {list-style-type: none; margin-left: 0; padding-left: 0; margin-top: 2em;}
-   li {margin-bottom: 0.2em; font-size: 0.8em; color: #000000; background: #FFFF99;
+   ul {
+      list-style-type: none;
+      margin-left: 0; 
+      padding-left: 0;
+      margin-top: 2em;
+   }
+
+   li {
+      margin-bottom: 0.2em;
+      font-size: 0.8em; 
+      color: #000000; 
+      background: #FFFF99;
       padding: 0.1em 0.2em;}
       
-/* Lista de anuncios */
-   ul.anuncio {list-style-type: none; margin-left: 0; padding-left: 0; margin-top: 0;}
-   li.anuncio {background: #FFFFFF;}
+
+   ul.anuncio {
+      list-style-type:
+      none; margin-left: 0;
+      padding-left: 0;
+      margin-top: 0;
+   }
+
+   li.anuncio {
+      background: #FFFFFF;
+   }
    
-/* Noticias */
-   .noticia {background: white; border: 1px dotted blue;
-      margin-bottom: 1em; padding: 0.5em;}
-   p.textonoticia {font-size: 0.8em}
-   img.foto-noticia {float: right; margin-left: 0.5em;}
 
-/* Textos destacados con SPAN */
-   .importante {color: #003399; font-weight: bold;}
+   .noticia {
+      background: white;
+      border: 1px dotted blue;
+      margin-bottom: 1em;
+      padding: 0.5em;
+   }
 
-/* Dirección */
-   address {font-size: 0.8em; padding-left: 1em;}
+   p.textonoticia {
+      font-size: 0.8em
+   }
+
+   img.foto-noticia {
+      float: right; 
+      margin-left: 0.5em;
+   }
+
+   
+   .importante {
+      color: #003399; 
+      font-weight: bold;
+   }
+
+
+   address {
+      font-size: 0.8em; 
+      padding-left: 1em;
+   }
  
-/* Titulo */
-   header {height: 74px; text-align: center; padding-top: 1em; background: #FFFF99;}
+
+   header {
+      height: 74px;
+      text-align: center; 
+      padding-top: 1em;
+       background: #FFFF99;
+   }
 
 /* Columna izquierda */
    nav {
@@ -67,11 +114,17 @@
       background: #ffffff;
    }
 
-/* pie de página*/
-   footer {text-align: center; padding: 0.3em; background: #E9EEF6;}
+   footer {
+      text-align: center;
+       padding: 0.3em; 
+       background: #E9EEF6;
+      }
 
-/* Contenedor */
-   #contenedor {}
+   #certificado {
+      margin-top: 3%;
+   }
 
 /* Bloque para igualar alto de las columnas */
-   #clear {clear: both;}
+   #clear {
+      clear: both;
+   }
